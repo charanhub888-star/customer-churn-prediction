@@ -19,8 +19,12 @@ This script:
 import argparse
 import json
 from pathlib import Path
+import warnings
 import joblib
 import matplotlib.pyplot as plt
+
+warnings.filterwarnings("ignore")
+
 import numpy as np
 import pandas as pd
 import seaborn as sns
